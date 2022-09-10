@@ -1,0 +1,11 @@
+.popup__registration-text {
+  color: #000;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.21;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  max-width: 358px;
+  text-align: center;
+}

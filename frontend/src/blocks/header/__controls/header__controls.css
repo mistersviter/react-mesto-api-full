@@ -1,0 +1,5 @@
+.header__controls {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}

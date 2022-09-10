@@ -1,0 +1,12 @@
+.entrance-form__input {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #ccc;
+  width: 358px;
+  min-height: 27px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background: none;
+  margin-bottom: 30px;
+}

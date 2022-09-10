@@ -1,0 +1,21 @@
+.profile__avatar-change-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-color .1s linear;
+  background-size: cover;
+}
+
+.profile__avatar-change-button:hover {
+  background-color: rgba(0, 0, 0, .8);
+  background-image: url('../../../images/edit_avatar_button.svg');
+  background-size: 26px;  
+}

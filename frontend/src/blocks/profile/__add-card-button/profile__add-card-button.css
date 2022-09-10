@@ -1,0 +1,17 @@
+.profile__add-card-button {
+  width: 150px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 2px solid #fff;
+  background-image: url('../../../images/add_card_button.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 709px) {
+  .profile__add-card-button {
+    width: 282px;
+    background-size: 16px;
+  }
+}
