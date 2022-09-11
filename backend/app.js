@@ -66,11 +66,12 @@ app.use(auth);
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
 
-app.use(errorLogger);
 
 app.use((req, res, next) => {
   next(new NotFoundError('Ой, такого пути не существует'));
 });
+
+app.use(errorLogger);
 
 app.use(errors());
 
